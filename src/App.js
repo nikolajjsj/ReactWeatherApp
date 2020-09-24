@@ -1,13 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Weather from './weather'
 
 function App() {
   return (
-    <div className="App">
-      Hello, world!
+    <div className='App'>
+      <Weather />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
